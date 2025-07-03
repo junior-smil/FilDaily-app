@@ -1,38 +1,71 @@
-.App {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eee7e7; /* Couleur de fond noire */
+  color: #1a1919; /* Couleur du texte blanche */
+}
+
+.header {
+  width: 100%;
+  height: 120px; /* Hauteur de l'en-tête */
+  justify-content: space-between;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #0077cc; /* Couleur de fond de l'en-tête */
+  padding: 10px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/*menu deroulant*/
+.dropdown {
+  position:relative ; /* Position relative pour le menu */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.dropdown-icon {
+  background: none;
+  position: absolute; /* Fixe l'icône dans le conteneur */
+  top: 50%;           /* Centre verticalement */
+  right: 20px;        /* Décale depuis la droite */
+  transform: translateY(-50%); /* Centre parfaitement */
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 2;         /* Au-dessus du menu */
+}
+
+.dropdown-menu {
+  position: relatif; /* Positionnement relatif pour le menu */
+  top: 100%; /* Positionne le menu juste en dessous de l'icône */
+  right: 0; /* Aligne à droite */
+  background-color: #f2f2f2; /* Couleur de fond du menu */
+  border-radius: 5px; /* Coins arrondis */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+  z-index: 1; /* Assure que le menu est au-dessus des autres éléments */
+}
+
+.dropdown-menu ul {
+  list-style-type: none; /* Supprime les puces */
+  padding: 0; /* Supprime le rembourrage */
+  margin: 0; /* Supprime la marge */
+}
+
+.dropdown-menu li {
+  margin: 0; /* Pas de marge entre les éléments */
+}
+
+.dropdown-menu a {
+  text-decoration: none; /* Supprime le soulignement */
+  color: #333; /* Couleur du texte */
+  display: block; /* Permet de cliquer sur toute la zone */
+  padding: 10px 15px; /* Rembourrage pour les liens */
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd; /* Couleur de fond au survol */
+}
+.menuD{
+  display: inline-block;
+  position: absolute;
+  top: 12%;
+  right: 0;
 }
