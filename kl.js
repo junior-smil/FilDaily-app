@@ -1,6 +1,6 @@
 import React from 'react';
 
-const kl = () => {
+const Kl = () => {
     return (
         <div>
             <h1>Hello, World!</h1>
@@ -8,4 +8,4 @@ const kl = () => {
     );
 };
 
-export default kl;
+export default Kl;
