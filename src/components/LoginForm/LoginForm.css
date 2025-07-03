@@ -36,14 +36,14 @@
     width: 100%;
     height: none;
     background: transparent;
-    border: 3px solid rgba(255, 255, 255, 0.5);
+    border: 3px solid rgba(105, 82, 82, 0.5);
     outline: none;
     border-radius: 60px;
     text-align: center;
     font-size: 19px;
     color: #0c0c0c;
-    padding: 10px 35px 10px 20px;
-    border-color: rgba(58, 57, 57, 0.5);
+    padding: 5px 15px 10px 20px;
+    border-color: rgba(104, 99, 99, 0.5);
 } 
 
 .input-box input::placeholder{ /* Placeholder text style*/
@@ -62,7 +62,7 @@
 .wrapper .remember-forgot{
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 17px;
     margin: -15px 0 15px;
 }
 
@@ -75,11 +75,11 @@
 }
 
 .wrapper .remember-forgot a{
-    color: #cecfd8;
+    color: #ededf1;
     text-decoration: none;
 }
 .wrapper .remember-forgot a:hover{
-    color: #010418;
+    color: #09090a;
     text-decoration: underline;
 }
 
@@ -128,4 +128,17 @@
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   /* Ajoutez d'autres styles ici */
+}
+
+.ty{
+  z-index: 1;
+  position: relative;
+  display: inline-block;
+  top: 250px;
+  left: -270px;
+  text-decoration: none;
+    color: #010418;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
 }

@@ -75,7 +75,7 @@ body {
 /*partie */
 .articleStyle{
   position: absolute;
-  width: 100vmax; /* Prend toute la largeur de la fenêtre */
+  width: 100%; /* Prend toute la largeur de la fenêtre */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

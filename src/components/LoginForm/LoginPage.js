@@ -7,10 +7,12 @@ const LoginPage = () => {
     <div>
      <div className='login-page'>
       <LoginForm />
-     </div>
       <div>
-       <Link to="/">Retour à l'accueil</Link>
+      <Link to="/" className='ty'>
+        Retour à l'accueil
+      </Link>
       </div>
+     </div>
     </div>
     
   );
