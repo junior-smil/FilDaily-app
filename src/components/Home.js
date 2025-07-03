@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import MenuDeroulant from './MenuDeroulant'
+import ArticleStyle from './ArticleStyle';
 import {  } from "react-icons/ri";
 
 
@@ -13,6 +14,7 @@ function Home() {
           <p>Ceci est votre page d'accueil.</p>
           <span className='menuD'><MenuDeroulant /></span> 
         </header>
+        <span className='articleStyle'><ArticleStyle /></span>
         
         
       </div>
