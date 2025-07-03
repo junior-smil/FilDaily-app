@@ -1,0 +1,35 @@
+.journal-container {
+    display: flex;
+    height: 100vh;
+}
+
+.details {
+    width: 70%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.article {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.article:hover {
+    background-color: #e0e0e0;
+}
+
+.details img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
